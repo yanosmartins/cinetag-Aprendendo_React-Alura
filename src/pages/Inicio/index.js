@@ -1,6 +1,8 @@
+const { default: Cabecalho } = require("components/Cabecalho");
+
 function Inicio() {
     return(
-        <h1>Olá mundo! Estou em outra página agora.</h1>
+        <Cabecalho />
     )
 }
 export default Inicio;
